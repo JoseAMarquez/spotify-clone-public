@@ -1,0 +1,36 @@
+.sidebar {
+  overflow: scroll;
+  height: 100vh;
+  flex: 0.2;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+  height: 100vh;
+  background-color: #040404;
+}
+.sidebar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+.sidebar__logo {
+  object-fit: contain;
+  height: 70px;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+.sidebar_title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
